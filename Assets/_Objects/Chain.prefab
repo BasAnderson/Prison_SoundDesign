@@ -6003,6 +6003,9 @@ MonoBehaviour:
   audioSource: {fileID: 6143714460544624613}
   chainSound:
   - {fileID: 8300000, guid: ccd3f097bb98c724fadf8b0d8987da16, type: 3}
+  - {fileID: 8300000, guid: de8fb6afc9328814491f32d8d15cda9f, type: 3}
+  - {fileID: 8300000, guid: 54c9a483987ad93478506d194125ee58, type: 3}
+  - {fileID: 8300000, guid: 1473e579a7f62784ea8304a31a622f6d, type: 3}
   timer: 0
   randomTime: 0
   soundIndex: 0

@@ -7,13 +7,19 @@ public class LightOff : MonoBehaviour
     // Start is called before the first frame update
     public AudioSource playSound;
     public Light lightTarget;
+    bool lightBlown = false;
 
     void OnTriggerEnter(Collider other)
     {
-        playSound.Play();
+        if (lightBlown == false)
+        {
+            playSound.Play();
 
-        
-        lightTarget.enabled = false;
+            lightBlown = true;
+            lightTarget.enabled = false;
+        }
+
     }
+
 }
     
