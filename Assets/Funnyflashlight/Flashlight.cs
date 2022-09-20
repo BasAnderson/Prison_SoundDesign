@@ -11,7 +11,7 @@ public class Flashlight : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown("FKey"))
         {
             if (isOn == false && failSafe == false)
             {
